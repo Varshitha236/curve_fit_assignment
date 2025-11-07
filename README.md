@@ -15,8 +15,10 @@ t \cdot \cos(0.4908) - e^{0.0214|t|} \cdot \sin(0.3t)\sin(0.4908) + 54.9008,\;
 
 ## Desmos Equation
 
-(tcos(0.4908) - e^(0.0214abs(t))sin(0.3t)sin(0.4908) + 54.9008,
-42 + tsin(0.4908) + e^(0.0214*abs(t))sin(0.3t)*cos(0.4908))
+```
+(t*cos(0.4908) - e^(0.0214*abs(t))*sin(0.3*t)*sin(0.4908) + 54.9008, 
+ 42 + t*sin(0.4908) + e^(0.0214*abs(t))*sin(0.3*t)*cos(0.4908))
+```
 
 
 Domain: 6 ≤ t ≤ 60
@@ -36,3 +38,4 @@ Domain: 6 ≤ t ≤ 60
 
 ## Submitted by
 **Rayapu Varshitha**
+
