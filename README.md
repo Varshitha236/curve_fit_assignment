@@ -1,11 +1,11 @@
-# Curve Fit Assignment — Research & Development 
+# Curve Fit Assignment — Research and Development 
 
-## Final parameter values
-- θ = 0.4908 (radians)
-- M = 0.0214
-- X = 54.9008
+## Final Parameter Values
+- θ = 0.4908 radians  
+- M = 0.0214  
+- X = 54.9008  
 
-## Parametric equation (LaTeX)
+## Parametric Equation (LaTeX)
 \[
 \left(
 t \cdot \cos(0.4908) - e^{0.0214|t|} \cdot \sin(0.3t)\sin(0.4908) + 54.9008,\;
@@ -13,20 +13,26 @@ t \cdot \cos(0.4908) - e^{0.0214|t|} \cdot \sin(0.3t)\sin(0.4908) + 54.9008,\;
 \right)
 \]
 
-## Desmos equation (paste this into Desmos)
+## Desmos Equation
 
-(tcos(0.4908) - e^(0.0214abs(t))sin(0.3t)sin(0.4908) + 54.9008, 42 + tsin(0.4908) + e^(0.0214*abs(t))sin(0.3t)*cos(0.4908))
+(tcos(0.4908) - e^(0.0214abs(t))sin(0.3t)sin(0.4908) + 54.9008,
+42 + tsin(0.4908) + e^(0.0214*abs(t))sin(0.3t)*cos(0.4908))
 
-Set domain: '6 ≤ t ≤ 60'
+
+Domain: 6 ≤ t ≤ 60
 
 ## Methodology
-1. Loaded the provided dataset 'xy_data.csv'
-2. Created evenly spaced 't' values between 6 and 60
-3. Defined the given parametric equations with unknowns θ, M, and X
-4. Used optimization (L-BFGS-B) minimizing L1 distance to fit the curve
-5. Obtained the optimized parameters shown above
-6. Plotted and verified the fitted curve visually
+1. The given dataset 'xy_data.csv' was used for the curve fitting task.  
+2. I generated equal intervals of 't' between 6 and 60.  
+3. The provided parametric equations were used with unknown parameters θ, M, and X.  
+4. I applied the L-BFGS-B optimization method to minimize the L1 distance between actual and predicted points.  
+5. The optimized values of θ, M, and X were recorded.  
+6. The fitted curve was plotted and verified with the given data.
 
-## Files included
-- 'xy_data.csv'
-- 'fit_curve.py'
+## Files Included
+- 'xy_data.csv' — given dataset  
+- 'fit_curve.py' — Python program used for optimization  
+
+
+## Submitted by
+**Rayapu Varshitha**
